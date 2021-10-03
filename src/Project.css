@@ -1,0 +1,26 @@
+
+.projectDescription{
+    width:100%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:left;
+    display: flex;
+    margin-top:5%;
+  }
+  .projectsTitle{
+    text-align: center;
+    margin:0;
+    width:25%
+  }
+  .projectsText{
+    width:25%;
+    word-wrap: break-word;
+    text-align: center;
+    padding:0px;
+    margin-top:3%;
+  }
+  .projectsPic{
+    width:30%;
+    display:flex;
+  }
+  
