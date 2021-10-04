@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+.homePage{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(homeBack.png);
+    background-size: cover;
+    vertical-align: middle;
+  }
+  .homeName{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 128px;
+    font-family: "Lucida Handwriting", cursive;
+    color: rgb(255,255,255);
+    margin-top: 28vh;
+  }
+  .homeDesc{
+    display: inline;
+    width: 100%;
+    font-size: 24px;
+    font-family: "PT Sans", cursive;
+    color: rgb(255,255,255)
+  }
+  .socials{
+    margin: 2vh 2vw;
+    padding: 0;
+    height: 7vh;
+  }

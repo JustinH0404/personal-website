@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+.expPage{
+    width:100vw;
+    min-height:100vh;
+    background-image:url(expBack.png);
+    background-size:cover;
+    vertical-align:middle;
+  }
+.expTitle{
+    color: white;
+  }
+  .expBlock{
+    text-align: left;
+    padding-left: 15%;
+    padding-right:15%;
+    word-wrap: break-word;
+    font-family: "PT Sans", serif;
+  }
+  .expTitle2{
+    font-size:32px;
+    color:white;
+    margin-top:1%;
+    margin-bottom:0%;
+  }
+  .expDesc{
+    font-size: 18px;
+    color:white;
+    margin-bottom:2%;
+  }
+  .expTime{
+    font-size:14px;
+    color:white;
+    margin:0;
+    font-family: "PT Sans", serif;
+  }

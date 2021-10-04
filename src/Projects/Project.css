@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+.projectsPage{
+  width:100vw;
+  min-height:100vh;
+  background-image: url(projBack.jpeg);
+  background-size:cover;
+  vertical-align: middle; 
+  display:flex;
+  flex-direction: column;
+}
+.projectDescription{
+    width:100%;
+    text-align:left;
+    display: flex;
+    margin-top:5%;
+  }
+  .projectsTitle{
+    text-align: center;
+    margin:0;
+    width:25%;
+    font-family: "PT Sans", serif;
+    font-size: 24px;
+  }
+  .projectsText{
+    width:25%;
+    word-wrap: break-word;
+    text-align: center;
+    padding:0px;
+    margin-top:3%;
+    font-family: "PT Sans", serif;
+    font-size:16px;
+  }
+  .projectsPic{
+    width:40%;
+    display:flex;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .projectsContainer{
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+
+  }
+  
