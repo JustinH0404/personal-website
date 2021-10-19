@@ -3,12 +3,11 @@
 .expPage{
     width:100vw;
     min-height:100vh;
-    background-image:url(expBack.png);
-    background-size:cover;
+    background-color:ivory;
     vertical-align:middle;
   }
 .expTitle{
-    color: white;
+    color: #7851a9;
   }
   .expBlock{
     text-align: left;
@@ -19,18 +18,33 @@
   }
   .expTitle2{
     font-size:32px;
-    color:white;
+    color:#7851a9;
     margin-top:1%;
     margin-bottom:0%;
   }
   .expDesc{
     font-size: 18px;
-    color:white;
+    color:#7851a9;
     margin-bottom:2%;
   }
   .expTime{
     font-size:14px;
-    color:white;
+    color:#7851a9;
     margin:0;
     font-family: "PT Sans", serif;
   }
+  
+  .timeline{
+    position:relative
+  }
+  .timeline:before {
+    position: absolute;
+    height:100%;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #7851a9;
+}

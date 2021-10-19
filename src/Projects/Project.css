@@ -3,11 +3,15 @@
 .projectsPage{
   width:100vw;
   min-height:100vh;
-  background-image: url(projBack.jpeg);
-  background-size:cover;
+  background-color: ivory;
   vertical-align: middle; 
   display:flex;
   flex-direction: column;
+}
+.projectPageTitle{
+  font-size: 48px; 
+  font-family: "PT Sans", serif;
+  color: #7851a9;
 }
 
 .projectDescription{
@@ -16,33 +20,54 @@
     display: flex;
     margin-top:5%;
   }
-  .projectsTitle{
+.projectTextBox{
+    width: 40%;
+}
+.projectsTitle{
     text-align: center;
     margin:0;
-    width:25%;
+    width:100%;
     font-family: "PT Sans", serif;
     font-size: 24px;
   }
   .projectsText{
-    width:25%;
+    width:100%;
     word-wrap: break-word;
     text-align: center;
     padding:0px;
     margin-top:3%;
     font-family: "PT Sans", serif;
     font-size:16px;
+    text-align: left;
+
+  }
+  .projectsPicBox{
+    width:60%;
+    display:flex;
+    justify-content: left;
   }
   .projectsPic{
-    width:40%;
+    width:60%;
     display:flex;
     padding-left:5%;
     padding-right:5%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
+  .projectsPic:hover {
+    width: 63%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
   .projectsContainer{
-    padding-left: 10%;
+    padding-left: 20%;
     padding-right: 10%;
     display:flex;
-
+    width:100%;
   }
   

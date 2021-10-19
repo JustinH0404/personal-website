@@ -6,11 +6,15 @@ export default function Project(props){
     const image = props.image
     const descrip = props.descrip
     return (
-        <div class = "projectDescription">
+        <div class = "projectDescription fade-in">
             <div class = "projectsContainer">
+            <div class = "projectTextBox">
                 <p class = "projectsTitle"> {name} </p>
-                <img class = "projectsPic" src = {image} alt = "pic"></img>
                 <p class = "projectsText">{descrip}</p>
+            </div>
+            <div class = "projectsPicBox">
+                <img class = "projectsPic" src = {image} alt = "pic"></img>
+            </div>
             </div>
         </div>
     )

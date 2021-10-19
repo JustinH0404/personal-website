@@ -28,7 +28,9 @@ export default function Experiences(){
     return(
     <section id = "expPage">
       <div class = "expPage">
+
         <p class = "titleText expTitle">Experiences</p>
+        {/* <div class = "timeline"> */}
         {
           Experiences.map((record) => (
             <Experience
@@ -40,7 +42,8 @@ export default function Experiences(){
             </Experience>
           ))
         }
-      </div>
+        </div>
+      {/* </div> */}
     </section>
     )
 }

@@ -1,10 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
 .headerText{
     font-size: 20px;
-    display: inline;
-    padding:2% ;
-    color: rgb(255,255,255);
+    padding:2%;
+    color: #7851a9;
+    font-family: "PT Sans", serif;
+    text-decoration: none;
+    list-style-type: none;
+    border: #FFFDD0, solid, 2px;
+    border-radius:20px;
+    width:150%;
   }
-  
+  .headerText :hover{
+    background-color:#FFFDD0;
+    /* opacity:0;  make things invisible upon start 
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1.4s; */
+  }
+
   .navBar{
     top:0;
     left: 0;
@@ -12,9 +26,16 @@
     align-items: end;
     width: 100vw;
     position: fixed;  
-    background: rgb(0,0,0);
-    height:50px;
+    background-color: transparent;
+    height:8%;
+    z-index:1;
   }
   .right{
-    justify-content: space-between;
+    width: 40%;
+    padding-left:60%;
+    display: flex; 
+    justify-content: space-evenly;
+    vertical-align: middle;
+    height:100%;
+    margin:0;
   }

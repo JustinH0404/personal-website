@@ -1,3 +1,8 @@
 .imageGalleryTitle{
     padding-bottom: 1vh;
+    color: purple;
+}
+
+.App{
+    background-color: #FFFFF0;
 }

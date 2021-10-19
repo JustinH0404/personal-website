@@ -28,7 +28,7 @@ const [Projects, setProjects] = React.useState(null);
     return (
     <section id = "projectsPage">
       <div class = "projectsPage">
-        <p class = "titleText">Projects</p>
+        <p class = "projectPageTitle fade-in">Projects</p>
         {
           Projects.map((record) => (
             <Project
