@@ -8,7 +8,7 @@ export default function navBar(){
       <div>
         <ul className = "right">
           <li className = "headerText">
-            <Link className = "headerText" to = "/"> Home</Link>
+            <Link className = "headerText" to = "personal-website"> Home</Link>
             {/* <a href="#homePage" className = "headerText" to>Home</a>   */}
           </li>
           <li className = "headerText"> 

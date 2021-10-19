@@ -5,6 +5,8 @@ import insta from "../assets/insta.png"
 import linkedin from "../assets/linkedin.png"
 import github from "../assets/github.png"
 import Title from './title.js'
+import { Link } from 'react-router-dom';
+
 
 export default function HomePages(){
 
@@ -24,7 +26,7 @@ export default function HomePages(){
             </div>
             <div class = "homeDesc2">
                 <a href = "#projectsPage" class = "links2"> Projects </a>
-                <a href = "./aboutMe.js" class = "paddingLeftRight links"> About me </a>
+                <Link className = "paddingLeftRight links" to = "/aboutMe">About me</Link>
             </div>
             <div>
                 <h2 class = "rotatingWords">
