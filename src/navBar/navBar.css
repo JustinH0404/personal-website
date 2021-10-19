@@ -7,9 +7,9 @@
     font-family: "PT Sans", serif;
     text-decoration: none;
     list-style-type: none;
-    /* border: #FFFDD0, solid, 2px;
+    border: transparent, solid, 2px;
     border-radius:20px;
-    width:150%; */
+    width:150%;
   }
   .headerText :hover{
     background-color:#FFFDD0;
