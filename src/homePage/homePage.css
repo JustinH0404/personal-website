@@ -97,12 +97,6 @@
     width: 100px; 
     left: 0px; 
   }
-  
-  .socials{
-    margin: 2vh 2vw;
-    padding: 0;
-    height: 7vh;
-  }
 
 .rotatingWords{
   margin-top:70vh;
@@ -209,3 +203,86 @@
       27% { opacity: 0; width: 100%; }
       100% { opacity: 0; }
   }
+
+@media (max-width: 1000px){
+    @keyframes rightFadeInOut {
+      0% {
+        position: absolute;
+        right: -5vw;
+        opacity: 0;
+      }
+    
+      100% {
+        position: absolute;
+        right: 2vw;
+        opacity: 1;
+      }
+    }
+    .homeName{
+      font-size:200px;
+    }
+    .homeDesc{
+      font-size: 28px;
+    }
+    .homeDesc2{
+      margin-top:58vh;
+    }
+    .rotatingWords{
+      margin-top: 64vh;
+    }
+}
+
+@media (max-width:690px){
+  .homeName{
+    width: 40%;
+    height: 100%;
+    font-size: 128px;
+    font-family: 'Work Sans', sans-serif;
+    color:#7851a9;
+    margin-top: 12vh;
+    animation-name: rightFadeInOut;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes rightFadeInOut {
+    0% {
+      position: absolute;
+      right: -5vw;
+      opacity: 0;
+    }
+  
+    100% {
+      position: absolute;
+      right: 4vw;
+      opacity: 1;
+    }
+  }
+  .homeDesc{
+    font-size: 20px;
+    width:80%;
+    margin-top:50vh;
+  }
+  .homeDesc2{
+    font-size: 16px;
+    margin-top:72vh;
+  }
+  .rotatingWords{
+    margin-top: 76vh;
+    font-size:10px;
+  }
+  .rw-words{
+    text-indent: 7px;
+  }
+  .rw-words span{
+    width:500%
+  }
+  .paddingLeftRight:hover:after { 
+    width: 76px; 
+    left: 0; 
+  }
+  .links2:hover:after { 
+    width: 64px; 
+    left: 0px; 
+  }
+}

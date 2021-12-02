@@ -44,11 +44,11 @@
   .projectsPicBox{
     width:60%;
     display:flex;
-    justify-content: left;
+    flex-direction:column;
+    justify-content: center;
   }
   .projectsPic{
     width:60%;
-    display:flex;
     padding-left:5%;
     padding-right:5%;
     -webkit-transition: all 0.2s ease-in-out;
@@ -71,3 +71,21 @@
     width:100%;
   }
   
+  @media (max-width:690px){
+    .projectsContainer{
+      display:flex;
+      flex-direction:column;
+      padding-left:10%;
+      padding-right: 10%;
+    }
+    .projectTextBox{
+      width: 100%;
+    }
+    .projectsText{
+      text-align: center;
+    }
+    .projectsPicBox{
+      width:100%;
+      flex-direction: row;
+    }
+  }

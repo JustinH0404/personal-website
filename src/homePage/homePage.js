@@ -43,12 +43,7 @@ export default function HomePages(){
                 </h2>
             </div>
                         
-            <div class = "socials">
-            {/* <a href = "https://www.facebook.com/JustinH0404/" target = "_blank"><img class = "socials" src = {fb} alt = "fb"/></a>
-            <a href = "https://www.instagram.com/justinhong0404/" target = "_blank"><img class = "socials" src = {insta} alt = "Insta"/></a>
-            <a href = "http://www.linkedin.com/in/justinhong4" target="_blank"> <img class = "socials" src = {linkedin} alt = "tw"/></a>
-            <a href = "https://github.com/JustinH0404" target = "_blank"><img class = "socials" src = {github} alt = "something"/></a> */}
-            </div>
+            
             {/* </div> */}
         </div>
     </section>
