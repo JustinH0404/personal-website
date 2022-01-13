@@ -2,46 +2,49 @@
 
 .aboutPage{
     width:100%;
-    min-height:100vh;
+    max-height:100vh;
     background-color: ivory; 
     vertical-align: middle;
-    padding-top:100px;
+    padding-top:5vh;
   }
   .signBox{
     width:100%;
   }
   .signPic{
-    width:50%;
-    height:auto;
+    height:20vh;
   }
-  .titleText{
-    padding-top: 10vh;
-    padding-bottom:5vh;
-    margin:0;
-    font-size: 48px;
-    font-family: "PT Sans", sans-serif;
-    color: #7851a9;
-  }
+ 
+.profile{
+  height: 75vh;
+  width:100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display:flex;
+  flex-direction:row;
+  padding-bottom:5%;
+  padding-top:2.5%;
+}
+
+.socialsBox{
+  width:5%;
+}
+
   .aboutDescription{
     width: 100%;
-    display:flex;
     height:100%;
   }
   
   .aboutPicBox{
-    width:50%;
-    display:flex;
-    flex-direction:column;
     justify-content: center;
+    width:50%;
+    margin:2%;
   }
   .aboutPhoto{
-    margin-left: 20vw;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    max-height: 70vh;
+    max-width:100%;
   }
   .aboutText{
     width: 100%;
-    font-size: 24px;
     font-family: "PT Sans", sans-serif;
     margin-bottom: 0;
     margin-top:0;
@@ -49,87 +52,94 @@
     text-align:left;
     padding: 1%;
   }
+  .aboutText span{
+    font-size:1.5vw !important;
+  }
+  .aboutText p{
+    font-size:1.5vw;
+  }
   .aboutText2{
-    width: 30%;
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
     justify-content: center;
-    margin-left: 5vw;
+    width:70%;
   }
-  .socials{
-    margin: 2vh 0.5vw;
-    padding: 0;
-    height: 7vh;
+  .aboutText2 span{
+    font-size:2vw;
+    color: #7851a9;
+    font-family: "PT Sans", sans-serif;
+    text-align:left;
   }
 
-  /* .titleText a:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #db4b38;
-    transform-origin: bottom right;
-    transition: transform .25s ease-out;
-    cursor: pointer;
-} */
-@media (max-width:1100px){
-  .signPic{
-    width:90%;
-  }
-  .aboutDescription{
-    flex-direction:column;
-  }
-  .aboutPicBox{
-    flex-direction: row;
+  .socials{
+    margin-top:2vh;
+    padding: 0;
     width:100%;
   }
-  .aboutPhoto{
-    width:40%;
-    margin-top:5vh;
-    margin-bottom:5vh;
-    margin-left:0;
-    margin-right:0;
+
+  .verticalAlign{
+    align-items: center !important;
+  } 
+
+.noMargin{
+  margin:0;
+}
+
+@media (max-width: 1100px){
+  .signPic{
+    height: 15vh;
   }
-  .aboutText2{
-    width:80%;
-    margin-left: 10vw;
+  .profile{
+    min-height:80vh;
+    height:100%;
   }
-  .aboutText{
-    text-align: center;
-    font-size: 20px;
+  .aboutText span{
+    font-size:1.5vw !important;
   }
 }
 
-@media (max-width:690px){
-  .signPic{
-    width:90%;
-  }
-  .aboutDescription{
-    flex-direction:column;
-  }
-  .aboutPicBox{
-    flex-direction: row;
-    width:100%;
-  }
-  .aboutPhoto{
-    width:80%;
-    margin-top:5vh;
-    margin-bottom:5vh;
-    margin-left:0;
-    margin-right:0;
-  }
-  .aboutText2{
-    width:80%;
+@media (max-width:968px){
+  .aboutText2 span{
+    font-size: 2vw;
   }
   .aboutText{
-    text-align: center;
-    font-size: 20px;
+    font-size: 1.25vw;
   }
-    
+  .aboutText span{
+    font-size: 1.5vw !important;
+  }
+  .aboutText2 span{
+    font-size:2vw;
+  }
+}
 
-
+@media (max-width:768px){
+  .aboutPage{
+    max-height:500vh;
+  }
+  .aboutPicBox{
+    width:75%;
+  }
+  .profile{
+    flex-direction: column;
+  }
+  .socialsBox{
+    position:fixed;
+    width:5vw;
+    left: 10vw;
+    top:30vh;
+  }
+  .aboutText2 span{
+    font-size: 5vw;
+  }
+  .aboutText{
+    font-size: 2vw;
+  }
+  .aboutText span{
+    font-size:3vw !important;
+  }
+  .aboutText p{
+    font-size: 2.5vw;
+  }
 }

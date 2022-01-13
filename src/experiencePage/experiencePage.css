@@ -2,12 +2,13 @@
 
 .expPage{
     width:100vw;
-    min-height:100vh;
+    min-height:11vh;
     background-color:ivory;
     vertical-align:middle;
   }
 .expTitle{
     color: #7851a9;
+    font-size: 3vw;
   }
   .expBlock{
     text-align: left;
@@ -47,4 +48,17 @@
     margin-left: -1.5px;
     content: "";
     background-color: #7851a9;
+}
+
+.thumbnail2{
+  width:100%;
+  border-radius:100px;
+}
+
+.vertical-timeline-element-date{
+  text-align:center !important;
+}
+
+.smallMargin{
+  padding-bottom:5vh;
 }

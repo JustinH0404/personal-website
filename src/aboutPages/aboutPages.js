@@ -13,29 +13,34 @@ export default function aboutPages(){
       <div className = "signBox">
         <img src = {Signature} className = "signPic" alt = "me"></img>
       </div>
-      <div className = "aboutDescription">
-        <div class = "aboutPicBox">
-          <img class = "aboutPhoto" src = {aboutMe} alt = "me"/> 
-        </div>
-        <div class = "aboutText2">
-          <p class = "aboutText">
-          Hi, I'm Justin! I am currently a freshman studying Electrical Engineering 
-          and Computer Science at UC Berkeley.
-           </p>
-           <p className = "aboutText">One day in the future, I hope to develop somthing that 
-           help improve people's life, such as creating something to help my visually impaired sister see well. 
-           But right now, I'm just trying to learn as much as I can and enjoy life while I'm at it.</p>
-           <p className = "aboutText">A few of my hobbies are playing volleyball, table tennis, hiking, watching shows 
-           (anime!) and listening to music (old Taylor Swift is so good!). If you're interested in reaching out, my socials
-           are attached below.</p>
-          <div class = "socials">
-            <a href = "https://www.facebook.com/JustinH0404/" target = "_blank"><img class = "socials" src = {fb} alt = "fb"/></a>
-            <a href = "https://www.instagram.com/justinhong0404/" target = "_blank"><img class = "socials" src = {insta} alt = "Insta"/></a>
-            <a href = "http://www.linkedin.com/in/justinhong4" target="_blank"> <img class = "socials" src = {linkedin} alt = "tw"/></a>
-            <a href = "https://github.com/JustinH0404" target = "_blank"><img class = "socials" src = {github} alt = "something"/></a>
+      <div class = "profile verticalAlign">
+            <div class = "socialsBox">
+              <a href = "https://www.facebook.com/JustinH0404/" target = "_blank"><img class = "socials" src = {fb} alt = "fb"/></a>
+              <a href = "https://www.instagram.com/justinhong0404/" target = "_blank"><img class = "socials" src = {insta} alt = "Insta"/></a>
+              <a href = "http://www.linkedin.com/in/justinhong4" target="_blank"> <img class = "socials" src = {linkedin} alt = "tw"/></a>
+              <a href = "https://github.com/JustinH0404" target = "_blank"><img class = "socials" src = {github} alt = "something"/></a>
             </div>
-          </div> 
-          </div>
+            <div class = "aboutPicBox">
+              <img class = "aboutPhoto" src = {aboutMe} alt = "me"/>
+            </div>
+              <div class = "aboutText2">
+                <span> Hi, I'm Justin! </span>
+                <div class = "aboutText">
+                  <span> I'm currently pursuing an Electrical Enginerering and Computer Science Degree at UC Berkeley. I first became interested in pursuing technology after learning that my sister's genetic visual impairement
+                  disease could be solved through software development.</span> 
+                  <p class = "noMargin">Some of my hobbies include: </p>
+                  {/* <p>Listening to early 2010s music</p>  */}
+                  <ul>
+                    <li>Listening to music (Current Favorite Song: Billie Jean by Michael Jackson)</li>
+                    <li>Netflix! (Currently Watching: You Season 2)</li>
+                    <li>Playing Volleyball with Friends</li>
+                    <li>Playing Table Tennis Competitively</li>
+                  </ul>
+                  <p>If you're interested in working with me, please don't hesitate to reach out with the icons on the left, or email me at 
+                  justin.hong0404@gmail.com!</p>
+              </div>
+            </div>
+           </div>
       </div>
     </section>
     )

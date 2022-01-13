@@ -9,17 +9,12 @@
   flex-direction: column;
 }
 .projectPageTitle{
-  font-size: 48px; 
+  font-size: 64px; 
   font-family: "PT Sans", serif;
   color: #7851a9;
+  margin-top:5vh;
+  margin-bottom:3vh;
 }
-
-.projectDescription{
-    width:100%;
-    text-align:left;
-    display: flex;
-    margin-top:5%;
-  }
 .projectTextBox{
     width: 40%;
 }

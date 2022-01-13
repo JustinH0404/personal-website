@@ -1,0 +1,29 @@
+.vertical-timeline{
+    padding:0 !important;
+}
+
+
+.projectPicture{
+    width:100%;
+    padding: 10%;
+    padding-top: 0;
+    padding-left: 25%;
+}
+.projectTitle{
+    font-size: 24px;
+    text-align: left;
+}
+.projectAuthors{
+    font-size: 12px;
+    text-align:left;
+}
+.projectDescription{
+    font-size: 16px;
+    text-align:left;
+    padding-right: 5%;
+}
+
+.projectBorder{
+    border-radius: 5px;
+    color:black;
+}

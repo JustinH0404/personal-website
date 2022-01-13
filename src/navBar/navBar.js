@@ -5,25 +5,20 @@ import { Link } from 'react-router-dom';
 export default function navBar(){
     return(
     <div className = "navBar">
-      <div>
-        <ul className = "right">
+      <div class = "row">
+      <div className = "col-8">
+
+      </div>
+        <ul className = "right col-4">
           <li className = "headerText">
-            <Link className = "headerText" to = "/personal-website"> Home</Link>
-            {/* <a href="#homePage" className = "headerText" to>Home</a>   */}
+            <Link className = "headerText" to = "/"> Home</Link>
           </li>
-          <li className = "headerText"> 
-            {/* <a href="#aboutPage" className = "headerText">About</a> */}
+          <li className = "headerText "> 
             <Link className = "headerText" to = "/aboutMe">About</Link>
           </li>
-          {/* <li className = "headerText">
-            <a href="#projectsPage" className = "headerText">Projects</a>
-          </li> */}
-          {/* <li className = "headerText">
-            <a href="#expPage" className = "headerText">Experiences</a>
+          <li className = "headerText "> 
+            <Link className = "headerText" to = "/Projects">Projects</Link>
           </li>
-          <li className = "headerText">
-            <a href="#imageGallery" className = "headerText">Photos</a>  
-          </li> */}
           
         </ul>
       </div>
