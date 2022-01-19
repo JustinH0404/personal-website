@@ -40,7 +40,7 @@ export default function Projects() {
             <div class = "col-4" data-aos = "fade-right">
               <img class = "projectPicture" src = {proj1} alt = ""/>
             </div>
-            <div class = "col-8" data-aos = "fade-left">
+            <div class = "col-8" data-aos = "fade-right">
               <div class = "projectTitle">p5 Project</div>
               <div class = "projectAuthors">Justin Hong</div>
               <div class = "projectDescription">This was my very first project coding project! Drawing on inspiration from 

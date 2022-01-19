@@ -9,7 +9,7 @@ export default function navBar(){
       <div className = "col-8">
 
       </div>
-        <ul className = "right col-4">
+        <ul className = "right col-md-4">
           <li className = "headerText">
             <Link className = "headerText" to = "/"> Home</Link>
           </li>

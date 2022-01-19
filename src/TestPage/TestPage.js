@@ -12,19 +12,22 @@ export default function TestPage(){
         <div class = "TestPage">
             <div class = "homePage"> 
             <div class = "container">
+            <div class = "row">
+                    <p class = "homeNameNew2">Hi</p>
+            </div>
                 <div class = "row">
-                    <div class = "col-8" data-aos = "fade-right">
+                    <div class = "col-md-8" data-aos = "fade-right">
                         <div class = "homeDescNew col-12" >
-                            <div class = "col-8">
+                            <div class = "col-md-8">
                                 <div>I'm Justin, a student</div>
                                 <div>studying Eletrical Engineering and Computer Science at UC Berkeley</div>
                             </div>
                         </div>
                         <div class = "homeDesc2New w-100 row" >
-                            <div class = "col-2 overflowHid">
+                            <div class = "col-sm-2 overflowHid">
                                     <Link className = "links2" to = "/Projects">Projects</Link>
                             </div>
-                            <div class = "col-10 overflowHid">
+                            <div class = "col-sm-10 overflowHid">
                                 <Link className = " links" to = "/aboutMe">About me</Link>
                             </div>
                             <div class = "row">
@@ -42,7 +45,7 @@ export default function TestPage(){
                         </div>
                     </div>
                     <div class = "col-4" data-aos = "fade-left">
-                    <p class = "homeNameNew">Hi</p>
+                        <p class = "homeNameNew">Hi</p>
                     </div>
                 </div>
             </div>

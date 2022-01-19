@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
 .projectsPage{
-  width:100%;
+  /* width:100%; */
+  max-width: 100vw;
   min-height:100vh;
   background-color: ivory;
   vertical-align: middle; 
