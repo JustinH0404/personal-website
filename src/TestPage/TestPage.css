@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Work+Sans:wght@800&display=swap');
 
 .TestPage{
-    height:100vh;
+    min-height:100vh;
     width:100%;
 }
 
@@ -225,13 +225,13 @@
 @media (max-width:576px){
     .homeDescNew{
         margin-top:15vh;
-        font-size: 28px;
+        font-size: 24px;
     }
     .links{
-        font-size: 28px;
+        font-size: 20px;
     }
     .links2{
-        font-size:28px;
+        font-size:20px;
     }
     .links:after{
         left:-200px;
@@ -246,10 +246,11 @@
 
     .homeNameNew{
         font-size: 0px;
+        margin:0;
     }
     .homeNameNew2{
         position:relative;
-        margin-top:45vh;
+        margin-top:0vh;
         text-align:right;
         font-size:212px;
         font-family: 'Work Sans', sans-serif;
@@ -258,5 +259,8 @@
         animation-delay: 0s;
         animation-duration: 2s;
         animation-iteration-count:infinite;
+    }
+    .expTitle{
+        font-size: 36px;
     }
 }
